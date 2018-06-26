@@ -1,26 +1,40 @@
-<meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211 {% endif %}{{site.title}}</title>
-{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-{% if page.tags %}<meta name="keywords" content="{{ page.tabs | join: ", " }}">{% endif %}
-<meta http-equiv="cleartype" content="on">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
+  {% if page.desc %}
+    <meta content="{{ page.desc }}" name="description">
+  {% endif %}
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+  {% endif %}
+  <meta name="author" content="{{ site.author.name }}">
+  <meta name="baseurl" content="{{ site.baseurl }}">
 
-<meta name="HandledFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>
+    {% if page.title != "index" %}
+        {{ site.title }}|{{ page.title }}
+    {% else %}
+        {{ site.title }}
+    {% endif %}
+  </title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
-<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <!-- Main CSS -->
+  <link href="{{ "/static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
 
+  <!-- Main Scripts -->
+  <script src="{{"/static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{"/static/assets/blog-20180125.min.js"| prepend: site.baseurl }}"></script>
 
-<!-- open graph tags -->
-<meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
-{% else %}
-  <meta content="{{ site.title }}" property="og:title">
-{% endif %}
-<meta content="{{ page.layout }}" property="og:type">
-<meta content="{{ site.logo }}" property="og:image">
-<meta content="{{ site.description }}" property="og:description">
-<meta content="{{ page.url }}" property="og:url">                                                               
-                                                            
+  <!-- Google AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-6196184668650108",
+      enable_page_level_ads: true
+    });
+  </script>
+</head>
