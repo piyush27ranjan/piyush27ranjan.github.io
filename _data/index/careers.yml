@@ -1,16 +1,16 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: IIT Kharagpur
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Fucked JEE
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Apr. 2017
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Student
     i18n: company_a_job
   icon: fa-plus-square
 
