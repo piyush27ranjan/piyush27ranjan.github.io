@@ -4,7 +4,7 @@
     detail: IIT Kharagpur
     i18n: company_a
   desc:
-    detail: Fucked JEE
+    detail: Cleared JEE
     i18n: company_a_desc
   date:
     detail: Apr. 2017
@@ -12,18 +12,6 @@
   job:
     detail: Student
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: /static/assets/img/landing/Music.png
 
-- name:
-    detail: Company B
-    i18n: company_b
-  desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
-  date:
-    detail: Jun. 2015
-    i18n: company_b_date
-  job:
-    detail: Full Stack Developer (naam ka hai)
-    i18n: company_b_job
-  icon: fa-plus-square
+
