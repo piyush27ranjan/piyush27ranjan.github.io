@@ -19,6 +19,8 @@
 
 - name: Google Image Scraper
   i18n: Google Image Scraper
+  gh_user: piyush27ranjan
+  repo: Google_images_scraper
   url: https://github.com/piyush27ranjan/Google_images_scraper
   img: /static/assets/img/landing/google.png
   desc: Scrape up to 100 images from Google.
