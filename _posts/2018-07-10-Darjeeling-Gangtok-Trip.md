@@ -33,7 +33,7 @@ There are seating areas as well to enjoy the views. The entire area along with t
 
 ### Nathula Pass:
 
- Nathula Pass is a mountain pass in the Eastern Himalayas in Sikkim. The high altitude pass doubles up as the Indo-Chinese border that serves as the trade link between India and China. Nestled at an elevation of 14,140 feet, Nathula Pass ranks amongst the highest passes accessible by tourists via motorable road.
+Nathula Pass is a mountain pass in the Eastern Himalayas in Sikkim. The high altitude pass doubles up as the Indo-Chinese border that serves as the trade link between India and China. Nestled at an elevation of 14,140 feet, Nathula Pass ranks amongst the highest passes accessible by tourists via motorable road.
 
 This mountainous pass is one of the oldest trading border posts connecting Tibet and India.  The silk route, ancient trade route used to pass through here. Currently, the Nathula Pass is marked by entrance gates of both countries (India and China) and military bunkers on both sides of the gates. It is one of the unmissable attractions in Sikkim.
 
